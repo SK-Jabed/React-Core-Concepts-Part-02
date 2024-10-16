@@ -18,12 +18,21 @@ export default function Team () {
         padding: "15px",
         borderRadius: "16px"
     }
+    const btnStyle = {
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        gap: "16px"
+    }
 
     return (
         <div style={teamStyle}>
             <h3>Players: {team}</h3>
-            <button onClick={handleAdd}>Add</button>
-            {/* <button onClick={handleRemove}>Remove</button> */}
+            <div style={btnStyle}>
+                <button onClick={handleAdd}>Add</button>
+                <button onClick={handleRemove}>Remove</button>
+            </div>
+            
         </div>
     )
 }
