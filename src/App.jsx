@@ -1,7 +1,8 @@
 import './App.css'
-import Counter from './counter'
-import Team from './team'
-import Users from './users'
+import Counter from './Counter'
+import Friends from './Friends'
+import Team from './Team'
+import Users from './Users'
 
 function App() {
   function handleClick() {
@@ -22,12 +23,14 @@ function App() {
       <Users></Users>
 
 
+      <Friends></Friends>
+
       <Counter></Counter>
 
 
       <Team></Team>
 
-      
+
       {/* <button onclick="handleClick()">Click Here</button> */}
       <button onClick={handleClick}>Click Here</button>  <br></br>   <br></br>
       <button onClick={handleClick2}>Click Me</button> <br></br> <br></br>    
