@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 import './Friends.css'
 import Friend from './Friend'
-export default function Friends() {
+
+export default function Friends() {  
     const [friends, setFriends] = useState([])
     
     useEffect(() => {
@@ -19,7 +20,6 @@ export default function Friends() {
         </div>
     )
 }
-
 
 /*
 * 01. Declare a State To Hold Data
