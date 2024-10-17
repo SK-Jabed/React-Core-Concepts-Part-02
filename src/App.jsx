@@ -19,25 +19,24 @@ function App() {
 
   return (
     <>
-      <h2>React Core Concepts 2</h2> 
-      <Users></Users>
+      <h2>React Core Concepts 2</h2>
 
+      <Users></Users>
 
       <Friends></Friends>
 
       <Counter></Counter>
 
-
       <Team></Team>
 
-
       {/* <button onclick="handleClick()">Click Here</button> */}
-      <button onClick={handleClick}>Click Here</button>  <br></br>   <br></br>
-      <button onClick={handleClick2}>Click Me</button> <br></br> <br></br>    
-      <button onClick={() => {alert("Third Button Clicked")}}>Third Button</button>  <br></br> <br></br> 
+      <button onClick={handleClick}>Click Here</button>  <br/> <br/>
+      <button onClick={handleClick2}>Click Me</button> <br/> <br/>    
+      <button onClick={() => {alert("Third Button Clicked")}}>Third Button</button> <br/> <br/>
       <button onClick={() => addToFive(5)}>Forth Button</button>  
     </>
   )
 }
+
 
 export default App
