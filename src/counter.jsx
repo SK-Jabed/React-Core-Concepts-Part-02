@@ -7,6 +7,7 @@ export default function Counter() {
         const newCount = count + 1;
         setCount(newCount);
     }
+    
     const handleReduce = () => {
         const newCount = count - 1;
         setCount(newCount);
