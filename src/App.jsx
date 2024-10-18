@@ -34,11 +34,11 @@ function App() {
       <br/> <br/>
       <button onClick={handleClick2}>Click Me</button> 
       <br/> <br/>    
-      <button onClick={() => {alert("Third Button Clicked")}}>Third Button</button> <br/> <br/>
+      <button onClick={() => {alert("Third Button Clicked")}}>Third Button</button> 
+      <br/> <br/>
       <button onClick={() => addToFive(5)}>Forth Button</button>  
     </>
   )
 }
-
 
 export default App
